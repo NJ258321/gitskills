@@ -59,7 +59,7 @@ void SaveAsBmp(const char* file, char* lpImg, int imWidth, int imHeight, bool bD
 }
 
 char* lpImgData = NULL;
-int colImg = 1024, rowImg = 1024; // 宽，高可以改，但是这里宽必须是4的整数倍
+int colImg = 1028, rowImg = 1024; // 宽，高可以改，但是这里宽必须是4的整数倍
 
 //设置像素，第i行，j列的像素 设置颜色为 (r,g,b)
 inline void  SetPixel(int j, int i, char r, char g, char b)//设置点像素颜色
