@@ -163,5 +163,5 @@ int main(int argc, char* argv[])
 
 	delete lpImgData;
 
-	return 0;
+	//return 0;
 }
